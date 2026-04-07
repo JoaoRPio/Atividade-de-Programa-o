@@ -90,4 +90,6 @@ public class Curso {
     public void ObterAlunosEnfressos(){
         
     }
+
+    public Abstract void realizarMatricula();
 }
