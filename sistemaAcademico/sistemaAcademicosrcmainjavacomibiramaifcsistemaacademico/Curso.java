@@ -13,7 +13,7 @@ import javax.xml.crypto.Data;
 public class Curso {
     private String codigo;
     private String nome;
-    private String chTotal;
+    private int chTotal;
     private int duracao;
     private String tipoDuracao;
     private String modalidade;
@@ -39,11 +39,11 @@ public class Curso {
         nome = _nome;
     }
     
-    public String getChTotal(){
+    public int getChTotal(){
         return chTotal;
     }
     
-    public void setChTotal(String _chTotal){
+    public void setChTotal(int _chTotal){
         chTotal = _chTotal;
     }
     
