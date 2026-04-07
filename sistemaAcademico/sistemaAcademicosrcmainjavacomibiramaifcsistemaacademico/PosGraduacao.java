@@ -31,4 +31,9 @@ public class PosGraduacao extends Curso{
     public void validarDissertacaoOuTese(){
             
     }
+
+    @Override
+    public Abstratc void realizarMatricula() {
+
+    }
 }
