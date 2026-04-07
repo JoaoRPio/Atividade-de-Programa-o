@@ -10,7 +10,7 @@ import javax.xml.crypto.Data;
  *
  * @author aluno
  */
-public class Curso {
+public abstract class Curso {
     private String codigo;
     private String nome;
     private int chTotal;
