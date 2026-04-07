@@ -31,4 +31,9 @@ public class Tecnico extends Curso{
     public boolean verifcEstagio() {
         return chEstagio > 0;
     }
+
+    @Override
+    public Abstratc void realizarMatricula() {
+
+    }
 }
