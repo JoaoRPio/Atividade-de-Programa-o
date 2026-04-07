@@ -31,4 +31,8 @@ public class Graduacao extends Curso{
     public void validarTcc(){
         
     }
+@Override
+    public Abstratc void realizarMatricula() {
+
+    }
 }
